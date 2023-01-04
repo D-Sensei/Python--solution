@@ -1,6 +1,14 @@
 #Ashu the one who came with it
 
-
+Problem
+Given an array arr[ ] of N positive integers, the task is to find the greatest
+element on the left of every element in the array which is strictly smaller
+than itself, if this element does not exist for an index print "-1 ".
+Example 1:
+Input:
+arr[]
+Output:
+-1 234 -I
 
 Solution
 a=int(input("N -"))

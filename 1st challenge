@@ -1,1 +1,9 @@
 #Ashu the one who came with it
+
+
+
+Solution
+a=int(input("N -"))
+n=list(map(int, input("elements of array-").strip().split()))
+b = [-1 if x == min(n) else -1 if x == max(n) else x for x in n]
+print(b)
